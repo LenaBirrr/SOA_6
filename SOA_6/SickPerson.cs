@@ -12,7 +12,7 @@ namespace SOA_6
         public string Name { get; set; }
 
 
-        public void Recover(PlagueMedication medication)
+        public void Recover(IMedication medication)
         {
             Console.WriteLine(Name + " recovered from " + Virus + " with the help of " + medication.Cure());
         }

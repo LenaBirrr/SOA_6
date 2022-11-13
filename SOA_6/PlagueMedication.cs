@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOA_6
 {
-    public class PlagueMedication
+    public class PlagueMedication:IMedication
     {
         public string Cure()
         {
