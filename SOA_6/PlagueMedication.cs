@@ -14,6 +14,14 @@ namespace SOA_6
         int NumberOfPills { get; set; } = 3;
         int NumberOfInjections { get; set; } = 2;
 
+        public void TakePills()
+        {
+            Console.WriteLine(TypeOfPills);
+        }
+        public void TakeInjections()
+        {
+            Console.WriteLine(TypeOfInjections);
+        }
         public string Cure()
         {
             return $"{TypeOfPills} in {NumberOfPills} pills and {TypeOfInjections} in {NumberOfInjections} injections";

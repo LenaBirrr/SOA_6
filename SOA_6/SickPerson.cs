@@ -14,6 +14,9 @@ namespace SOA_6
 
         public void Recover(PlagueMedication medication)
         {
+            medication.TakePills();
+            medication.TakeInjections();
+
             Console.WriteLine(Name + " recovered from " + Virus + " with the help of " + medication.Cure());
         }
     }
