@@ -8,8 +8,8 @@ namespace SOA_6
 {
     public class SickPerson
     {
-        public string Virus { get; set; }
-        public string Name { get; set; }
+        public string? Virus { get; set; }
+        public string? Name { get; set; }
 
 
         public void Recover(PlagueMedication medication)
