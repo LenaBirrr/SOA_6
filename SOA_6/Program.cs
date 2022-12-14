@@ -6,7 +6,9 @@ sick.Name = "Jack";
 sick.Virus = "Plague";
 
 PlagueMedication medication = new PlagueMedication();
+PlagueMedication medication1 = new ColdMedication();
 
 sick.Recover(medication);
+sick.Recover(medication1);
 
 
